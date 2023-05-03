@@ -1,0 +1,162 @@
+body{
+    font-family: 'Monda', sans-serif; 
+    color: black;
+    background-color: rgb(247, 247, 247);
+
+
+}
+/*header*/
+.header{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: rgb(247, 247, 247);
+
+}
+#Allhead{
+    width:100%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 50px;
+}
+
+.header ul li img {
+    margin-right: 5px;
+}
+
+/*Main*/
+.text-box{
+    margin-top: 70px;
+    margin-left: 40px;
+    max-width: 600px;
+}
+
+.text-box h1{
+    font-size: 55px;
+    margin-bottom:20px;
+    color:#292929
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse; /* За да обърнете реда на елементите */
+    align-items: center; /* За да центрирате вертикално картинката */
+  }
+  
+  h1 {
+    flex: 1;
+    margin-left: 10px; /* За да оставите малко място между заглавието и картинката */
+    font-size: 50px;
+  }
+  
+  .image {
+    max-width: 40%;
+    height: auto; /* За да запазите пропорциите на картинката */
+    margin-right: 0px; /* За да оставите малко място между картинката и заглавието */
+  }
+  
+
+
+
+
+
+  /*Most popular*/
+
+.most-popular{
+    margin-top: 60px;
+}
+.most-popular h2{
+    text-align: center;
+    font-size: 30px;
+}
+ .most-popular ul li{
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 50px;
+ }
+
+ .most-popular ul li img{
+    border-radius: 20px
+ }
+
+
+ /*Photogallery*/
+
+.photobox {
+    margin-top: 60px;
+}
+
+.photobox h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.photobox img{
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+#left{
+    margin-bottom: 250px;
+    margin-right: 20px;
+}
+
+#right{
+    margin-bottom: 250px;
+    margin-left: 20px;
+}
+
+
+
+
+/*Footer*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.footer-container {
+    width: 100%;
+    background-color: #4A4A4A;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+#heading1{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#bottext{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 50px;
+}
+
+#botimg{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container ul li img {
+    margin-right: 5px;
+}
+
+
+
+  
